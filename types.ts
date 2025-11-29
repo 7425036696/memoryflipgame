@@ -23,8 +23,3 @@ export interface GameState {
   gameStatus: 'idle' | 'playing' | 'won' | 'draw';
   theme: string;
 }
-
-export interface ThemeGenerationResponse {
-  items: string[];
-  themeName: string;
-}
